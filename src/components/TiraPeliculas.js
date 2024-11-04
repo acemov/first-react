@@ -5,8 +5,12 @@ function TiraPeliculas() {
     return (
         <div className="App">
             <p>-----------------</p>
-            <Pelicula />
-            <Pelicula />
+            <Pelicula genero={["acción", "acentura"]} nombres="Logan" descripcion="muy buena :)" >
+                <p>- hacemos uso de children😎</p>
+            </Pelicula>
+            <Pelicula genero={["tegnologia", "errores", "ia"]} nombres="ERROR" descripcion="muy mala :(" >
+                <p>- childreeeen🤣</p>
+            </Pelicula>
         </div >
     );
 }
